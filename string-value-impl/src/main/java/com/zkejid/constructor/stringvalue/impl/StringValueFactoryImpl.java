@@ -18,7 +18,7 @@ public class StringValueFactoryImpl implements StringValueFactory, ConstructorPa
 
   @Override
   public StringValue make(String value, InputValueType type) {
-    return new WrapperStringValueImpl(value, type);
+    return new StringWrapperImpl(value, type);
   }
 
   @Override
@@ -41,7 +41,7 @@ public class StringValueFactoryImpl implements StringValueFactory, ConstructorPa
   }
 
   @Override
-  public void putImplementation(Class<?> aClass, Object o) {
+  public void putImplementation(Class<?> aClass, Object ... o) {
     throw new ConstructionException("Module has no dependencies");
   }
 

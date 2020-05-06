@@ -8,15 +8,15 @@ import com.zkejid.constructor.stringvalue.api.v1.StringValue;
  * <p>
  * Implementation is a wrapper around original value and property value.
  */
-public final class WrapperStringValueImpl implements StringValue {
+public final class StringWrapperImpl implements StringValue {
 
   private final InputValueType inputValueType;
   private final String value;
 
   /**
-   * @see WrapperStringValueImpl
+   * @see StringWrapperImpl
    */
-  public WrapperStringValueImpl(String value, InputValueType inputValueType) {
+  public StringWrapperImpl(String value, InputValueType inputValueType) {
     this.inputValueType = inputValueType;
     this.value = value;
   }
