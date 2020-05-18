@@ -1,4 +1,4 @@
-# String value module
+# String Value module
 ## Overview
 Part of Zkejid's Constructor Framework. Serves as a wrapper around string values provided through any container: command line property, configuration property, etc. Includes semantics of "empty value" and "omitted value". Sometimes it is hard to say if the value of string parameter is actually an empty string, or the value is unspecified due to any reason. Sometimes both of these situationsshould be processed similarly, bot in other cases actions should be different. This module helps to process the value in strict and obvious way.  
 
@@ -20,7 +20,7 @@ String Value is the module of [Constructor Framework](https://github.com/zkejids
 You can simply place artifacts of this module on the path of application to use its API.
 
 ## Versioning
-Artifact versions of the CliArguments Module follow the 
+Artifact versions of the String Value Module follow the 
 [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) specification.
 
 ## License
